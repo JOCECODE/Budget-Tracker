@@ -2,7 +2,7 @@
 
 <div style="color: yellow;">
 
-# Budjet-Tracker
+# Budget-Tracker
 
 </div>
 
