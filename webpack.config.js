@@ -36,8 +36,7 @@ const config = {
                 ),
               // the plugin will generate an image for each size
               // included in the size array
-              sizes: [192, 512],
-              destination: "./"
+              sizes: [192, 512]
             }
           ]
         })
