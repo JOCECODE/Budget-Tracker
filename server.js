@@ -3,6 +3,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
+// CONNECT LOCALHOST PORT 4000 OR HEROKU
 const PORT = process.env.PORT || 4000;
 
 const app = express();
@@ -15,6 +16,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+// CONNECT WITH MONGO LOCAL DATABASE OR MONGODB ONLINE DATABASE
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/budget', {
   useNewUrlParser: true,
   useUnifiedTopology: true,

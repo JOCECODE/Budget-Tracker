@@ -1,3 +1,4 @@
+// FILES TO CACHE
 const FILES_TO_CACHE = [
     "/",
     "/styles.css",
@@ -13,6 +14,7 @@ const FILES_TO_CACHE = [
   const STATIC_CACHE = "static-cache-v1";
   const RUNTIME_CACHE = "runtime-cache";
   
+  // EVENT LISTENER TO WAIT UNTIL STATIC CACHE OPENS THEN ADD ALL FILES TO CACHE
   self.addEventListener("install", event => {
     event.waitUntil(
       caches

@@ -1,3 +1,4 @@
+// USED db.js FROM MINI PROJECT WEEK 17
 let db;
 // create a new db request for a "budget" database.
 const request = indexedDB.open("budget", 1);

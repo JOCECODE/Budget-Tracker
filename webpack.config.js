@@ -1,7 +1,7 @@
 const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 
-
+// CONFIGURATIONS FOR WEBPACK
 const config = {
     entry: "./public/index.js",
     output: {
